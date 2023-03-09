@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./img/log\ in.jfif);
+}
+.logCaja{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+input[type=text] {
+    border: 5px solid rgb(238, 164, 52);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+  }
+
+    input[type=email] {
+    border: 5px solid rgb(238, 164, 52);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+  }
+  form{
+    color: white;
+  }
+  input[type=password] {
+    border: 5px solid rgb(238, 164, 52);
+    border-radius: 4px;
+    width: 300px;
+    height: 30px;
+  }
+  h1{
+    font-size: 50px;
+    color: white;
+  }
+  p{
+    font-size: 30px;
+    color: white;
+  }
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
